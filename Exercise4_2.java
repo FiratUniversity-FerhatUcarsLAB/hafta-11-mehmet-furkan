@@ -26,3 +26,12 @@ public class Exercise4_2 {
         }
     }
 }
+/* Programın çıktısı:
+ik
+rattle
+ping zoop
+boo-wa-ha-ha */
+
+// 19.  ve 20. satırlar 2şer defa çalışmıştır.
+
+// baffle metodu ilk çağrıldığında blimp değeri "rattle" dır
