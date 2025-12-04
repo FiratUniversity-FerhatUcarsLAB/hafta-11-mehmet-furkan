@@ -1,3 +1,8 @@
+/*
+ * Ad Soyad: Mehmet Furkan AKYAR
+ * Ogrenci No: 240541056
+ * Tarih: 12/4/2025 
+ */
 public class Exercise4_2 {
 
   // Her satirin sonuna calisma sirasi yorumlarini ekleyin.
