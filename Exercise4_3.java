@@ -34,11 +34,21 @@ public class Exercise4_3 {
 // 3.zoop içinde ilk satırda baffle() çağrılır.
 // 4.baffle içinde ping() çağrılır (Bu, ping'in ilk çağrılışıdır).
 
-/* Stack (Yığın),Açıklama
- * ping,"En üstte, şu an çalışan metot."
- * baffle,ping metodunu çağıran metot.
- * zoop,baffle metodunu çağıran metot.
- * main,"Programın başlangıç noktası, zoop metodunu çağıran metot." */
+/* Stack Diyagramı:
++-------------------------------+
+|  ping                         | <--- En Üst (Şu an çalışan metot)
+|  (Parametre veya değişken yok)|
++-------------------------------+
+|  baffle                       |
+|  (Parametre veya değişken yok)|
++-------------------------------+
+|  zoop                         |
+|  (Parametre veya değişken yok)|
++-------------------------------+
+|  main                         | <--- En Alt (Programın başladığı yer)
+|  args: [String dizisi]        |
++-------------------------------+ */
+
 
 /* Programın Tam Çıktısı
 No, I wug.
